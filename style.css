@@ -312,7 +312,7 @@ ul{
 
 /* Responsiv Style */
 
-@media (max-width: 560px) {
+@media (max-width: 576px) {
  
     nav{
         flex-direction: column;
@@ -456,4 +456,73 @@ ul{
     }
   
    
+}
+
+@media (min-width:576px) and (max-width: 960px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+    }
+    ul{
+        margin-top: 2rem;
+    }
+
+    .header-menu{
+        box-shadow:none;
+    }
+
+    .banner{
+      padding-top: 2rem;
+    }
+   /* gamer section */
+    .gamer-section{
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+    }
+    .gamer-content{
+        width: 100%;
+        text-align: center;
+    }
+    .section-title{
+        font-size: 1.8rem;
+        padding: 0.8rem 0;
+    }
+    .section-discription{
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        padding-bottom: 0.7rem;
+    }
+    /* video section */
+    .video-section{
+        text-align: center;
+     }
+     .video-cards{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: auto;
+         grid-gap: 2rem;
+     }
+     /* play secetion */
+    .play-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .play-befor{
+        width: 12rem;
+        height: 14rem;
+        bottom: -10%;
+        left: -18%;
+    }
+    .play-content{
+        width: 50%;
+        margin: 0;
+        text-align: center;
+    }
+    .play-img{
+        width: 80%;
+    }
 }
